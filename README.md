@@ -1,4 +1,4 @@
-<h1 align="center">🔥 My-Phishing-Case-SeaBank 🔥</h1>
+<h1 align="center">🎣 My Phishing Case - SeaBank 🎣</h1>
 
 ## I.Create Malware - Simple CobaltStrike-Agent Runner
 1. Encode the Payload
@@ -86,12 +86,21 @@ After completing the setup and weaponization, the final step is to send an email
   <img src="https://github.com/user-attachments/assets/f248c44d-d27f-457b-8f56-05059cdd6500">
 </p>
 
-=>And now, just sit back and wait for the targets to take the bait. 🎣😈
+=>And now, just sit back and wait for the targets to take the bait.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c757c30b-c57c-4f4f-b875-5957b517de10">
 </p>
-Mission accomplished!
+<p align="center">
+😈Mission accomplished!😈
+</p>
 
+## IV. Analysis of Strengths and Weaknesses
+1. Strengths
+This technique is extremely easy to implement, has a high success rate, and works well on both EDR and Kaspersky AV.
+High flexibility and reusability due to using PowerShell as the main platform.
+2. Weaknesses
+Since the technique relies on PowerShell as the main platform, it will not work on Domains or Forests that have a "Disable PowerShell" policy in place. (However, there are ways to bypass such policies—we will discuss this in a separate topic later.)
+And, of course, the common weakness of all phishing-based malware drop techniques: Mail Gateway. If the Mail Gateway blocks one of the formats we use (even after compression), the malware delivery to the user will not happen. However, this issue can be mitigated by compressing the entire payload and setting a password before sending it. This approach makes preparation more challenging and reduces the success rate, but it helps evade Mail Gateway detection. (Therefore, leveraging new executable formats will open up more possibilities.)
 
 
 
