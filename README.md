@@ -102,7 +102,7 @@ After completing the setup and weaponization, the final step is to send an email
 😈Mission accomplished!😈
 </p>
 
-## IV. Analysis of Strengths and Weaknesses
+## V. Analysis of Strengths and Weaknesses
 1. Strengths
 
 ✅This technique is extremely easy to implement, has a high success rate, and works well on both EDR and Kaspersky AV.
