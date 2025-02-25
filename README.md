@@ -46,7 +46,13 @@ $Patch = [Byte[]] (0xB8, 0x57, 0x00, 0x07, 0x80, 0xC3) #-----------Modify this--
 ```
 The above patch needs to have its string values and byte sequences obfuscated to avoid detection by signature-based security measures.
 ## II. Reconnaissance to Create a Target List
-1. Exchanger.py
+1. ruler-linux64
+   
+In every phishing campaign, from my perspective, if a hacker gains access to any internal email account of a user, the success rate of the campaign is almost absolute. Once they obtain an account, the preparation of the script will be based on the role, department, and position of the user whose account has been compromised. This allows the attacker to target a limited number of users related to the controlled account (avoiding a large scope to prevent triggering alerts).
+
+So first, we will prioritize searching for valid internal accounts. We can use powerful search engines like Intelx or ruler-linux64, combined with common password formats such as "<Company_name>@123", "<Company_name>@1234", "<Company_name>@2024", etc., to perform brute-force attacks.
+
+3. exchanger.py
 
 Creating a target list requires a valid account on the target's Mail Exchange server. This can be done using the "exchanger.py" tool from the Impacket toolkit:
 ```
