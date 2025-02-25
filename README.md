@@ -52,7 +52,7 @@ In every phishing campaign, from my perspective, if a hacker gains access to any
 
 So first, we will prioritize searching for valid internal accounts. We can use powerful search engines like Intelx or ruler-linux64, combined with common password formats such as "<Company_name>@123", "<Company_name>@1234", "<Company_name>@2024", etc., to perform brute-force attacks.
 
-In this case, I found only one system account with an information notification function—excellent! The power of this account is extremely significant. However, there is a problem: such accounts usually do not have any directly related departments or users. Therefore, selecting a target and preparing the scenario must still be done on a sufficiently large scope.(Later, we were still detected by alerts, but by then, we had enough time to establish a tunnel and a new command-and-control channel—nice try, but I still feel sorry for the SOC team😆)
+In this case, I found only one system account with an information notification function—excellent! The power of this account is extremely significant. However, there is a problem: such accounts usually do not have any directly related departments or users. Therefore, selecting a target and preparing the scenario must still be done on a sufficiently large scope.(Later, we were still detected by alerts, but by then, we had enough time to establish a tunnel and a new command-and-control channel.Nice try, but I still feel sorry for the SOC team😆)
 
 2. exchanger.py
 
