@@ -50,7 +50,7 @@ The above patch needs to have its string values and byte sequences obfuscated to
    
 In every phishing campaign, from my perspective, if a hacker gains access to any internal email account of a user, the success rate of the campaign is almost absolute. Once they obtain an account, the preparation of the script will be based on the role, department, and position of the user whose account has been compromised. This allows the attacker to target a limited number of users related to the controlled account (avoiding a large scope to prevent triggering alerts).
 
-So first, we will prioritize searching for valid internal accounts. We can use powerful search engines like Intelx or ruler-linux64, combined with common password formats such as "<Company_name>@123", "<Company_name>@1234", "<Company_name>@2024", etc., to perform brute-force attacks.
+So first, we will prioritize searching for valid internal accounts. We can use powerful search engines like Intelx or ruler-linux64, combined with common password formats such as "<Company_name>@123", "<Company_name>@1234", "<Company_name>@2024",.. and email list collect from Intelx to perform brute-force attacks.
 
 In this case, I found only one system account with an information notification function - excellent! The power of this account is extremely significant. However, there is a problem: such accounts usually do not have any directly related departments or users. Therefore, selecting a target and preparing the scenario must still be done on a sufficiently large scope.(Later, we were still detected by alerts, but by then, we had enough time to establish a tunnel and a new command-and-control channel.Nice try, but I still feel sorry for the SOC team😆)
 
