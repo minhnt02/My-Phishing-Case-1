@@ -52,7 +52,7 @@ In every phishing campaign, from my perspective, if a hacker gains access to any
 
 So first, we will prioritize searching for valid internal accounts. We can use powerful search engines like Intelx or ruler-linux64, combined with common password formats such as "<Company_name>@123", "<Company_name>@1234", "<Company_name>@2024", etc., to perform brute-force attacks.
 
-3. exchanger.py
+2. exchanger.py
 
 Creating a target list requires a valid account on the target's Mail Exchange server. This can be done using the "exchanger.py" tool from the Impacket toolkit:
 ```
