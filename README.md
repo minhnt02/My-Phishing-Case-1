@@ -1,4 +1,4 @@
-<h1 align="center">🎣 My Phishing Case - SeaBank 🎣</h1>
+<h1 align="center">🎣 My Phishing Case - 1 🎣</h1>
 
 ## I.Create Malware - Simple CobaltStrike-Agent Runner
 1. Encode the Payload
@@ -99,13 +99,14 @@ Here is the full-chain of payload:
 After completing the setup and weaponization, the final step is to send an email with the attached file to the predefined target list with the following content:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f248c44d-d27f-457b-8f56-05059cdd6500">
+  <img src="https://github.com/user-attachments/assets/619210cb-fb57-4f73-bf3e-07febaf93f20">
 </p>
 
 =>And now, just sit back and wait for the targets to take the bait.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c757c30b-c57c-4f4f-b875-5957b517de10">
+  <img src="https://github.com/user-attachments/assets/aa607bfa-0184-4475-bbee-74cdecaecd10">
 </p>
+
 <p align="center">
 😈Mission accomplished!😈
 </p>
