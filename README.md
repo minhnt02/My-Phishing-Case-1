@@ -95,7 +95,7 @@ Here is the full-chain of payload:
   <img src="https://github.com/user-attachments/assets/aa13078f-aac5-4800-9621-67001abd36be">
 </p>
 
-## IV. Drop the BOMBS
+## IV. Drop DOWN
 After completing the setup and weaponization, the final step is to send an email with the attached file to the predefined target list with the following content:
 
 <p align="center">
